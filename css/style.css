@@ -1,32 +1,162 @@
 #header-section{
+    height: 600px;
     display: flex;
 }
-.header{
+.half-width{
     width: 50%;
-    padding-left: 10px;
+    padding-left: 40px;
+    margin: 50px 0 0 50px;
 }
 .heder-border{
     border-left: 5px solid #e66465;
 }
-.header h1{
+.half-width h1{
     font-size: 50px;
 }
-.header h3{
+.half-width h3{
     font-size: 30px;
 }
-.header p{
+.half-width p{
     font-size: 20px;
     text-align: justify;
 }
-.header img{
-    width: 50%;
+.half-width img{
+    width: 70%;
 }
 span{
     color: #ffb730;
 }
-.header .link-button{
+.link-button{
     text-decoration: none;
-    background-image: linear-gradient(#ff4949);
+    background-image: linear-gradient(red,tomato);
+    color: white;
+    font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
+    margin: 20px 0;
+}
+
+
+/*my-mission*/
+
+
+#my-mission{
+    height: 650px;
+}
+#my-mission h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+.aim{
+    display: flex;
+    height: 400px;
+    margin: 10px 100px;
+}
+.aim .mission{
+    background-color: #daf3f1;   
+}
+.aim .vission{
+    background-color: #f1dcdc;  
+}
+.aim .goals{
+    background-color: #e7e7c7; 
+}
+.same{
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mission img{
+    height: 150px;
+    width: auto;
+}
+.vission img{
+    height: 150px;
+    width: auto;
+}
+.goals img{
+    height: 150px;
+    width: auto;
+}
+.aim h3{
+    font-size:25px;
+}
+
+
+/*project*/
+
+
+#project{
+    height: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.project-1{
+    display: flex;
+    height: 400px;
+    margin: 10px 100px;
+}
+.project-1 img{
+    height: 500px;
+    width: auto;
+}
+
+
+/*second*/
+
+
+#second{
+    height: 600px;
+    width: 100%;
+}
+.project-2{
+    display: flex;
+    height: 400px;
+    margin: 10px 100px;
+}
+.project-2 img{
+    height: 500px;
+    width: auto;
+    margin-left: 100px;
+}
+
+
+/*contact*/
+
+
+
+#contact{
+    height: 600px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+.footer{
+    height: 100px;
+    background-color: #5f5d5d;
+}
+.footer h1{
+    color: white;
+    margin: auto;
+}
+.footer p{
+    color: white;
+}
+.red{
+    color: red;
 }
