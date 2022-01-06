@@ -1,0 +1,32 @@
+#header-section{
+    display: flex;
+}
+.header{
+    width: 50%;
+    padding-left: 10px;
+}
+.heder-border{
+    border-left: 5px solid #e66465;
+}
+.header h1{
+    font-size: 50px;
+}
+.header h3{
+    font-size: 30px;
+}
+.header p{
+    font-size: 20px;
+    text-align: justify;
+}
+.header img{
+    width: 50%;
+}
+span{
+    color: #ffb730;
+}
+.header .link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#ff4949);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
